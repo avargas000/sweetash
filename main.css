@@ -56,9 +56,9 @@ footer{
     background-color: silver;
 }
 #icon{
-    width: 100px;
-    height: 100px;
-    margin-right: 2%;
+    width:50;
+    height:50;
+    margin-right: 1%;
     display: inline-block;
 }
 #logo{
