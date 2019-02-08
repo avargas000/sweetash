@@ -1,0 +1,178 @@
+h1 {
+    font-size: 50px;
+    font-family: 'Clicker Script', cursive;
+  }
+  a {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 2%;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    padding: 1rem 1rem;
+    line-height: inherit;
+    white-space: nowrap;
+
+}
+navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.sec1{
+  width: 100%;
+  height: 500px;
+}
+.sec2{
+  width: 100%;
+  height: 500px;
+
+}
+.navcolor{
+
+    height: 100px;
+}
+.containa{
+  width: 100%;
+  height: 600px;
+}
+.nav-item{
+    display: inline-block;
+    padding-left: 1%;
+    font-size: 120%;
+    padding-top: 25px;
+}
+footer{
+    position: absolute ;
+    margin-top: 18vh;
+    height: 150px;
+    width: 100%;
+    background-color: silver;
+}
+#icon{
+    width: 100px;
+    height: 100px;
+    margin-right: 2%;
+    display: inline-block;
+}
+#logo{
+    height: 200px;
+    width: 200px;
+    border-radius: 25%;
+}
+.dividor{
+    margin-top:10%;
+    margin-bottom: 10%;
+    margin-right: 80px;
+    margin-left: 80px;
+    height: 1px;
+    background-color:gray;
+}
+h3{
+  font-size: 50px;
+  font-family: 'Clicker Script', cursive;
+  float: left;
+  }
+h2{
+    font-size: 15px;
+    font-family: monospace;
+    margin-top:5%;
+}
+#party{
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  float: left;
+  /* padding-left: 5px;
+  padding-right: 5px; */
+  padding: 5px 5px 5px 5px;
+}
+.party{
+  height: 400px;
+}
+.about{
+    margin-top:10%;
+    width: 1000px;
+    height: 600px;
+    margin-right: 60px;
+    margin-left: 60px;
+    border: solid  1px black;
+    margin-bottom:10%;
+    background-image: url("flower.jpeg");
+    background-size: cover;
+}
+a:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    transition: transform .5s;
+}
+
+#icon:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    transition: transform .5s;
+}
+#cont{
+    height: 700px;
+    width: 900px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto; }
+
+
+
+ /* #cardimg {
+ width: 100%;
+ height:  355px;
+    } */
+
+.card-img-top {
+width: 100%;
+height:  355px;
+    }
+
+/* .card{
+width: 100%;
+height:  500px;
+padding-bottom: 5%;
+    } */
+
+h5{
+font-family: 'Unlock', cursive;
+
+}
+/* .card-deck{
+margin-left: 60px;
+margin-right: 60px;
+} */
+.card-deck .card {
+    width: 100%;
+    height:  500px;
+    padding-bottom: 5%;''
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* margin-right: 15px; */
+    margin-bottom: 15%;
+    /* margin-left: 15px; */
+}
+#deck{
+    margin-left: 60px;
+    margin-right: 60px;
+}
