@@ -1,3 +1,65 @@
+@media only screen
+and (min-device-width : 480px)
+and (max-device-width : 800px)
+and (orientation : landscape) {
+
+}
+
+@media only screen
+and (min-device-width : 480px)
+and (max-device-width : 800px)
+and (orientation : portrait) {
+
+}
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait){
+
+  }
+
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape){
+
+  }
+
+  /*Portrait and landscape iPad Pro*/
+
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2){
+
+  }
+/*Portrait iPad Pro*/
+
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait){
+
+  }
+/*Landscape iPad Pro*/
+
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape){
+  }
+  @media only screen
+  and (min-device-width : 375px)
+  and (max-device-width : 812px)
+  and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) { /* iphone x portrait*/ }
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) { /* iPhone X in landscape */}
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) { /* iphone x */}
+
 h1 {
     font-size: 50px;
     font-family: 'Clicker Script', cursive;
@@ -35,8 +97,7 @@ navbar-brand {
 
 }
 .navcolor{
-
-    height: 100px;
+ height: 100px;
 }
 .containa{
   width: 100%;
@@ -77,7 +138,15 @@ footer{
 h3{
   font-size: 50px;
   font-family: 'Clicker Script', cursive;
-  float: left;
+
+  display: inline-block;
+  }
+  span{
+    font-size: 50px;
+    font-family: 'Clicker Script', cursive;
+
+    display: inline-block;
+
   }
 h2{
     font-size: 15px;
@@ -87,14 +156,18 @@ h2{
 #party{
   width: 250px;
   height: 250px;
-  display: inline-block;
-  float: left;
   /* padding-left: 5px;
   padding-right: 5px; */
   padding: 5px 5px 5px 5px;
 }
 .party{
   height: 400px;
+  /*margin: 60px 10px 60px 10px;*/
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-left: 80px;
+  padding-right: 60px;
+  margin-bottom: 20px;
 }
 .about{
     margin-top:10%;
